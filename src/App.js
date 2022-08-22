@@ -1,9 +1,14 @@
 import React from "react";
+import Login from "./pages/login/login";
+import './App.css'
 
-const App = () => { 
-    const message = 'Hackadev Go Fashion'
-    return <h1>{message}</h1>;
-  
+function App() {
+  return (
+    <div className="App">
+      <h1>Hackadev Go Fashion</h1>
+      <Login />
+    </div>
+ );
 }
 
 export default App;
