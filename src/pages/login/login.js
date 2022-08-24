@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
 
-const Login = () => (
-    <div>Clique aqui para conectar</div>
-);
+function login(){
+  return(
+    <h1>Go Fashion Login</h1>
+  );
+};
 
-export default Login;
+export default login;
