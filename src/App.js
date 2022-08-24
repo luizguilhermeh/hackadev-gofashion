@@ -1,13 +1,12 @@
 import React from "react";
-import Login from "./pages/login/login";
+import Routes from './pages/routes/routes';
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hackadev Go Fashion</h1>
-      <Login />
-    </div>
+    <div>
+      <Routes />
+    </div>     
  );
 }
 
