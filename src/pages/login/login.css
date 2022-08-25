@@ -6,12 +6,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Container global */
 .container {
   width: 100%;
   margin: 0 auto;
 }
-
+/* tela de login */
 .container-login {
   width: 100%;
   min-height: 87vh;
@@ -40,7 +40,7 @@
 .login-form {
   width: 100%;
 }
-
+/* Titulo de login */
 .login-form-title {
   display: block;
   font-size: 30px;
@@ -54,6 +54,7 @@
     width: 90px;
 } */
 
+/* inputs de login */
 .wrap-input {
   width: 100%;
   position: relative;
@@ -76,6 +77,7 @@
   padding: 0 5px;
 }
 
+/* Estilização de border button input */
 .focus-input {
   position: absolute;
   display: block;
@@ -152,6 +154,7 @@ input:focus + .focus-input::before {
   width: 100%;
 }
 
+/* Container de botão login */
 .container-login-form-button {
   display: flex;
   flex-wrap: wrap;
@@ -185,6 +188,7 @@ input:focus + .focus-input::before {
   cursor: pointer;
 }
 
+/* container global texto inferior */
 .text-center {
   display: flex;
   justify-content: center;
