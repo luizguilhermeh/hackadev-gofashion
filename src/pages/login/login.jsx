@@ -2,8 +2,11 @@
 import React from "react";
 import { useState } from "react";
 
+// rotas precisam ser atualizadas
 import registration from "../registration/registration";
 import home from "../home/home"
+
+
 
 import icon from "./assets/favicon.ico";
 

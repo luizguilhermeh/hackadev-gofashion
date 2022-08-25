@@ -103,10 +103,10 @@
 
   background: #f5f836;
 
-  background-color: -webkit-linear-gradient(to left, #edee99, #f5f836);
-  background-color: -o-linear-gradient(to left, #edee99, #f5f836);
-  background-color: -moz-linear-gradient(to left, #edee99, #f5f836);
-  background-color: linear-gradient(to left, #edee99, #f5f836);
+  background-color: -webkit-linear-gradient(to left, #f1f38a, #f5f836);
+  background-color: -o-linear-gradient(to left, #f1f38a, #f5f836);
+  background-color: -moz-linear-gradient(to left, #f1f38a, #f5f836);
+  background-color: linear-gradient(to left, #f1f38a, #f5f836);
 }
 
 .focus-input::after {
@@ -175,10 +175,10 @@ input:focus + .focus-input::before {
   width: 100%;
   height: 50px;
 
-  background: -webkit-linear-gradient(to left, #edee99, #f5f836);
-  background: -o-linear-gradient(to left, #edee99, #f5f836);
-  background: -moz-linear-gradient(to left, #edee99, #f5f836);
-  background: linear-gradient(to left, #edee99, #f5f836);
+  background: -webkit-linear-gradient(to left, #f1f366, #f5f836);
+  background: -o-linear-gradient(to left, #f1f366, #f5f836);
+  background: -moz-linear-gradient(to left, #f1f366, #f5f836);
+  background: linear-gradient(to left, #f1f366, #f5f836);
 }
 
 .login-form-button:hover {
@@ -195,8 +195,8 @@ input:focus + .focus-input::before {
 
 .texto1 {
   font-size: 14px;
-  color: #d2fe6a;
-  line-height: 1.5;
+  color: #f5f836;
+  line-height: 1.6;
   text-decoration: none;
   padding-right: 5px;
 }
@@ -204,7 +204,7 @@ input:focus + .focus-input::before {
 .texto2 {
   font-size: 14px;
   color: #ffffff;
-  line-height: 1.5;
+  line-height: 1.6;
   text-decoration: none;
 }
 
