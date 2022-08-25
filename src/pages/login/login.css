@@ -1,3 +1,6 @@
+/* Colocar fonte */
+
+
 * {
   margin: 0;
   padding: 0;
@@ -95,11 +98,10 @@
   width: 0;
   height: 2px;
 
-  -webkit-transition:all 0.4s;
+  -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-
 
   background: #f5f836;
 
@@ -113,7 +115,7 @@
   font-size: 15px;
   color: #999999;
   line-height: 1.2;
-  
+
   content: attr(data-placeholder);
 
   display: block;
@@ -128,8 +130,6 @@
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-
- 
 }
 
 .input:focus {

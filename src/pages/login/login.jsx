@@ -4,9 +4,7 @@ import { useState } from "react";
 
 // rotas precisam ser atualizadas
 import registration from "../registration/registration";
-import home from "../home/home"
-
-
+import home from "../home/home";
 
 import icon from "./assets/favicon.ico";
 
@@ -49,7 +47,9 @@ function Login() {
             </div>
             {/* botão */}
             <div className="container-login-form-button">
-              <button  className="login-form-button"><a href="home">Entrar</a></button>
+              <button className="login-form-button">
+                <a href="home">Entrar</a>
+              </button>
             </div>
             {/* campo para redirecionamento criar conta */}
             <div className="text-center">
