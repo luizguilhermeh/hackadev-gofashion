@@ -7,7 +7,9 @@ library.add(fas);
 
 export const Icons = () => (
   <div className="icons">
+    <a href="/login">
     <FontAwesomeIcon icon="user" id="icone-user"  />
+    </a>
     <FontAwesomeIcon icon="bag-shopping" id="icone-bag"/>
     
   </div>
