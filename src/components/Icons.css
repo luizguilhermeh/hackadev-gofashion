@@ -1,0 +1,24 @@
+.icons {
+    font-size: 30px;
+}
+
+
+#icone-user {
+    margin: 10px;
+    cursor: pointer;
+    color: #fc4c4c;
+}
+
+#icone-user :hover {
+    color: #fc7c7c;
+}
+
+#icone-bag {
+    margin: 10px;
+    color: #eabe32;
+}
+
+#icone-bag :hover{
+    color: #fee372;
+    cursor: pointer;
+}
