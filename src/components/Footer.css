@@ -1,0 +1,14 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(41, 37, 37, 0.4);
+}
+#footer-title {
+text-align: center;
+}
+
+#footer-subtitle {
+text-align: center;
+}
