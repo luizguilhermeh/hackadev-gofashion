@@ -1,9 +1,18 @@
-import React from "react";
+import React from 'react';
+import "./Footer.css"
 
-class Footer extends React.Component {
-  render() {
-    return <h1>Rodapé</h1>;
-  }
-}
+function product(){
+  return(
+    <div className='footer'>
+      <h3 id='footer-title'>
+        Go Fashion
+      </h3>
+      <p id='footer-subtitle'>
+      Copyright©2022-2022,Go Fashion Company. Todos os direitos
+        reservados.
+      </p>
+    </div>
+  );
+};
 
-export default Footer;
+export default product;

@@ -1,0 +1,15 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 15px hsl(0deg 4% 15% / 15%);
+    background-color: white;
+}
+#footer-title {
+text-align: center;
+}
+
+#footer-subtitle {
+text-align: center;
+}
