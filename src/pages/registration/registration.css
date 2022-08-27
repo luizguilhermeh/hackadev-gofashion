@@ -1,0 +1,192 @@
+:root {
+  --main-color: #fd4646;
+  --text-color: #171427;
+  --bg-color: #fff;
+}
+#form-titulo-cadastro {
+  text-align: center;
+}
+#form-subtitle-cadastro {
+  text-align: center;
+  font-size: small;
+  color: red;
+}
+.form-input-cep {
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 5px;
+  height: 30px;
+  outline: none;
+}
+
+#formulario-cep {
+  font-size: 12px;
+}
+
+#formulario-numero {
+  width: 3rem;
+}
+
+#form-estado {
+  width: 207px;
+  margin-left: 5px;
+}
+
+.formulario-cadastro {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+#form-titulo-cadastro {
+  text-align: center;
+}
+#form-subtitle-cadastro {
+  text-align: center;
+  font-size: small;
+  color: red;
+}
+
+.formulario-tabelas-botao {
+  display: inline;
+  align-items: center;
+}
+
+.formulario-dados-pessoais {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  position: relative;
+  vertical-align: top;
+  padding: 20px 50px 30px 60px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 1px;
+  border-top: 1px solid black;
+  border-radius: 2px;
+  justify-content: center;
+  box-shadow: inset 0 0 0.5px rgba(128, 128, 128, 0.3),
+    0 0 1em rgba(128, 128, 128, 0.3);
+}
+
+.formulario-titulo-dados-pessoais {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgba(169, 169, 169, 0.3);
+  padding-bottom: 10px;
+}
+
+.form-dados-label,
+.form-end-label {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 90px;
+}
+
+.form-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 5px;
+  height: 2rem;
+  width: 12rem;
+  margin-right: 10px;
+  outline: none;
+}
+
+.formulario-endereco {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  position: relative;
+  vertical-align: top;
+  padding: 20px 50px 30px 60px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-top: 1px solid black;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0.5px rgba(128, 128, 128, 0.3),
+    0 0 1em rgba(128, 128, 128, 0.3);
+}
+
+.formulario-titulo-endereco {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgba(169, 169, 169, 0.3);
+  padding-bottom: 10px;
+}
+.registration-botao {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0px 15px 0px;
+  align-items: center;
+}
+
+.formulario-button-criar-conta {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(88, 158, 59);
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+}
+
+@media screen and (min-width: 970px) {
+  .container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .formulario-tabelas {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .formulario-dados-pessoais {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 20px 60px 30px 20px;
+  }
+
+  .formulario-endereco {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 20px 60px 30px 20px;
+  }
+
+  .field {
+    display: flex;
+    margin: 20px 1px 20px 1px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .form-end-label {
+    display: inline-block;
+    text-align: right;
+    width: 120px;
+    margin-left: 60px;
+  }
+
+  .form-dados-label {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+  }
+
+  .form-end-field {
+    display: inline-block;
+    text-align: left;
+    margin-left: 5px;
+  }
+}
