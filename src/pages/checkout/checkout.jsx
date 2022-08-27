@@ -5,13 +5,14 @@ import "./checkout.css";
 function Checkout() {
   return (
     // container principal
-    <div className="container-main">
-      {/* container onde aparece o review dos produtos */}
-      <div className="review-product">
-        <h1>Produtos</h1>
-      </div>
-      {/* container da tela de checkout (envio e pagamento) */}
-      <div className="checkout-main">
+    <div className="container">
+      <div className="container-checkout">
+        {/* container onde aparece o review dos produtos */}
+        {/* <div className="review-product">
+          <h1>Produtos</h1>
+        </div> */}
+        {/* container da tela de checkout (envio e pagamento) */}
+
         {/* container tela de envio */}
         <div className="checkout-post">
           <div className="checkcout-post-title">
@@ -19,11 +20,7 @@ function Checkout() {
           </div>
           <div className="checkout-post-send">
             <p>
-              Enviando para:{" "}
-              <b>
-                Jose Carlos da Silva, Pça da matriz,174 - Centro, Itaberái - GO
-                - 76630-000
-              </b>{" "}
+              Enviando para: <b>Jose Carlos da Silva, Pça da matriz...</b>{" "}
             </p>
           </div>
           <div className="checkout-post-subtotal">
@@ -69,10 +66,14 @@ function Checkout() {
               />
             </div>
           </div>
-          {/* botão finalizar compra */}
+          
+        </div>
+        
+      </div>
+      {/* botão finalizar compra */}
+      <div className="container-button">
           <button className="button">Finalizar Compra</button>
         </div>
-      </div>
     </div>
   );
 }
