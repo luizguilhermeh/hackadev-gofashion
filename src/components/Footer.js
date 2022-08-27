@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.css"
 
-function product(){
+function Footer(){
   return(
     <div className='footer'>
       <h3 id='footer-title'>
@@ -15,4 +15,4 @@ function product(){
   );
 };
 
-export default product;
+export default Footer;
