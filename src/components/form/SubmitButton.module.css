@@ -1,0 +1,17 @@
+.btn {
+    background: linear-gradient(to left, #f1f38a, #f5f836);
+    color: grey;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 100%;
+}
+.btn:hover {
+    color: black;
+}
