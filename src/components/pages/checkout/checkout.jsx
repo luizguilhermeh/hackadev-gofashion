@@ -1,5 +1,7 @@
 import React from "react";
 
+import SubmitButton from "../../form/SubmitButton";
+
 import "./checkout.css";
 
 function Checkout() {
@@ -12,11 +14,8 @@ function Checkout() {
             <h1>Sacola de Produtos</h1>
           </div>
           <div className="checkout-products-details">
-            <p>
-              Produto XXX{" "}
-            </p>
+            <p>Produto XXX </p>
           </div>
-          
         </div>
 
         <div className="checkout-post">
@@ -43,39 +42,38 @@ function Checkout() {
 
           {/* opções de pagamento */}
           <div className="payment-options">
-            <div className="payment">
-              <label>Pix</label>
-              <input type="radio" name="payment-button-option" id="pix" />
-            </div>
-
-            <div className="payment">
-              <label>Boleto</label>
-              <input type="radio" name="payment-button-option" id="boleto" />
-            </div>
-
-            <div className="payment">
-              <label>Cartão de Crédito</label>
-              <input
-                type="radio"
-                name="payment-button-option"
-                id="cartao-credito"
-              />
-            </div>
-
-            <div className="payment">
-              <label>Trasferência</label>
-              <input
-                type="radio"
-                name="payment-button-option"
-                id="trasferencia"
-              />
+            <div id="input-option356">
+              <div className="radio">
+                <label>
+                  <input type="radio" name="option[356]" value="288" />
+                  <span>PIX</span>
+                </label>
+              </div>
+              <div className="radio">
+                <label>
+                  <input type="radio" name="option[356]" value="282" />
+                  <span>Cartão de Crédito</span>
+                </label>
+              </div>
+              <div className="radio">
+                <label>
+                  <input type="radio" name="option[356]" value="283" />
+                  <span>Boleto</span>
+                </label>
+              </div>
+              <div className="radio">
+                <label>
+                  <input type="radio" name="option[356]" value="283" />
+                  <span>Trasferência</span>
+                </label>
+              </div>
             </div>
           </div>
         </div>
       </div>
       {/* botão finalizar compra */}
       <div className="container-button">
-        <button className="button">Finalizar Compra</button>
+        <SubmitButton text="Finalizar Compra" />
       </div>
     </div>
   );

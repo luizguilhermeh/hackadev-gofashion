@@ -24,7 +24,7 @@
 }
 .checkout-products{
   width: 390px;
-  background-color: #f5f836;
+  background-color: #eef08a;
   border-radius: 10px;
 
   overflow: hidden;
@@ -41,12 +41,13 @@
   display: block;
   justify-content: flex-start;
   font-size: 15px;
+  color: rgb(78, 78, 76);
 
 }
 
 .checkout-post{
   width: 390px;
-  background-color: #f5f836;
+  background-color: #eef08a;
   border-radius: 10px;
 
   overflow: hidden;
@@ -62,6 +63,7 @@
   display: block;
   justify-content: flex-start;
   font-size: 15px;
+  color: rgb(78, 78, 76);
 
   
 }
@@ -76,7 +78,7 @@
 
 .checkout-payment{
   width: 390px;
-  background-color: #f5f836;
+  background-color:  #eef08a;
   border-radius: 10px;
   
 
@@ -86,31 +88,83 @@
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.container-button {
+.checkout-payment-title{
+  justify-content: center;
+  text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-bottom: 13px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  color: rgb(78, 78, 76);
 }
 
-.button {
-  font-size: 13px;
-  border: none;
-  border-radius: 10px;
-  color: rgb(2, 2, 2);
-  line-height: 1.2;
+.payment-button-option{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+
+.payment-button-option::after {
+  content: "";
+  clear: both;
+}
+
+.input-option356 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.input-option356:after {
+  content: "";
+  clear: both;
+}
+
+.radio {
+  /* border: 1px solid #ccc; */
+  box-sizing: border-box;
+  float: left;
+  height: 70px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.radio label {
+  background: #f5f836 no-repeat center center;
   cursor: pointer;
-
-  text-transform: uppercase;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
   width: 100%;
-  height: 50px;
+  height: 100%;
+  white-space: nowrap;
+  border-radius: 15px 50px 30px;
+  
+  
+}
 
-  background: -webkit-linear-gradient(to left, #f1f366, #f5f836);
-  background: -o-linear-gradient(to left, #f1f366, #f5f836);
-  background: -moz-linear-gradient(to left, #f1f366, #f5f836);
-  background: linear-gradient(to left, #f1f366, #f5f836);
+.radio label span {
+  z-index: 1;
+}
+.radio label input[type=radio] {
+  all: unset;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.radio label input[type=radio]:checked {
+  background-color: rgb(255, 196, 0);
+  border-radius: 15px 50px 30px
+}
+.radio label input[type=radio]:checked + span{
+  color: #ffffff;
+}
+
+.container-button{
+  display: flex;
+justify-content: center;
 }
