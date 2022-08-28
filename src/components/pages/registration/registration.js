@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Registration.module.css'
-import Formulario from "../../components/Formulario";
+import Formulario from "../../Formulario/Formulario";
 
 function registration() {
   return (
