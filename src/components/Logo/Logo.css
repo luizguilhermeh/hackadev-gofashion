@@ -1,3 +1,4 @@
-img {
-    max-width: 100%;
+.logo {
+    max-width: 60%;
+    padding: 20px;
 }

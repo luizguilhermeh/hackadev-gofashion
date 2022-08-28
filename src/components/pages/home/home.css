@@ -30,6 +30,7 @@
     gap: 15px;
     width: 100%;
     text-align: center;
+    margin-top: 20px;
   }
   
   .productList {
@@ -120,20 +121,18 @@
   /* NAVBAR */
   .nav {
     width: 100%;
-    height: 60px;
+    height: auto;
     background: #fff;
     box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-bottom: 20px;
     align-items: center;
   }
-  
-  .logo {
-    width: 220px;
-    padding-left: 10px;
+  .icons-nav {
+    display: flex;
   }
+
   
   /* ICON SACOLA */
   #ShoppingBagIcon {
