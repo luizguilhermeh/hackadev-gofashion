@@ -4,7 +4,6 @@ import shopping from "../../../img/shopping.svg";
 import user from "../../../img/account.png";
 import "../home/home.css";
 import "../../Logo/Logo.css";
-import { Link } from "react-router-dom";
 
 import Cart from "./Cart";
 import { useStateContext } from "../../../context/StateContext";
