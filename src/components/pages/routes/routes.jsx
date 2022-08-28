@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Switch ,Route } from 'react-router-dom';
 
-import checkout from '../checkout/checkout';
+import checkout from "../checkout/checkout";
 import home from "../home/home";
 import login from "../login/login";
 import product from "../product/product";
@@ -22,5 +22,4 @@ function Routes() {
     </BrowserRouter>
   );
 }
-
 export default Routes;

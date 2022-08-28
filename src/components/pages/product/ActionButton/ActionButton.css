@@ -1,0 +1,35 @@
+.items {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.product-escolhas {
+  display: inline-flex;
+  width: 150px;
+  text-align: center;
+  border-radius: 4px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.product-escolha-final {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: rgba(0, 0, 255, 0.384);
+  cursor: pointer;
+  width: 280px;
+  height: 40px;
+  text-transform: uppercase;
+  color: var(--bg-color);
+  font-weight: bold;
+  letter-spacing: 2px;
+}

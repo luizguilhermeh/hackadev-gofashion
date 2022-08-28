@@ -20,7 +20,7 @@ function Login() {
       <div className="container-login">
         <div className="wrap-login">
           <form className="login-form">
-            <span className="login-form-title">Bem Vindo!</span>
+            <span className="login-form-title">Bem-Vindo!</span>
 
             {/* input para entrada de email e senha */}
             <span className="login-form-title">
