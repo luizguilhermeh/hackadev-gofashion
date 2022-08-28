@@ -1,5 +1,5 @@
 import React from "react";
-import logoheaders from "../img/logo.png";
+import logoheaders from "../../img/logo.png";
 
 class Logo extends React.Component {
   render() {
