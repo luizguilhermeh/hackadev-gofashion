@@ -86,22 +86,22 @@
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.container-button {
+/* .container-button {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-bottom: 13px;
-}
+} */
 
-.button {
+/* .button {
   font-size: 13px;
   border: none;
   border-radius: 10px;
   color: rgb(2, 2, 2);
   line-height: 1.2;
-  cursor: pointer;
+  cursor: pointer; */
 
-  text-transform: uppercase;
+  /* text-transform: uppercase;
 
   display: flex;
   justify-content: center;
@@ -113,4 +113,4 @@
   background: -o-linear-gradient(to left, #f1f366, #f5f836);
   background: -moz-linear-gradient(to left, #f1f366, #f5f836);
   background: linear-gradient(to left, #f1f366, #f5f836);
-}
+} */

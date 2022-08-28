@@ -1,5 +1,7 @@
 import React from "react";
 
+import SubmitButton from "../../form/SubmitButton";
+
 import "./checkout.css";
 
 function Checkout() {
@@ -12,11 +14,8 @@ function Checkout() {
             <h1>Sacola de Produtos</h1>
           </div>
           <div className="checkout-products-details">
-            <p>
-              Produto XXX{" "}
-            </p>
+            <p>Produto XXX </p>
           </div>
-          
         </div>
 
         <div className="checkout-post">
@@ -75,7 +74,7 @@ function Checkout() {
       </div>
       {/* botão finalizar compra */}
       <div className="container-button">
-        <button className="button">Finalizar Compra</button>
+      <SubmitButton text="Finalizar Compra" />
       </div>
     </div>
   );
