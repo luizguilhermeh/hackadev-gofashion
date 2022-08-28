@@ -1,6 +1,6 @@
 import React from "react";
-import Icons from "./Icons";
-import Logo from "./Logo";
+import Icons from "../Icons/Icons";
+import Logo from "../Logo/Logo";
 import "./Headers.css";
 
 class Headers extends React.Component {
