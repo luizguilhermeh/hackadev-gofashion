@@ -3,4 +3,8 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0 1px 25px hsl(0deg 4% 15% / 10%);
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+    padding-inline: 2.4rem;
 }
