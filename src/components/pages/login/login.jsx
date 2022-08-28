@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 // rotas precisam ser atualizadas
 // import registration from "../registration/registration";
@@ -47,9 +48,9 @@ function Login() {
             </div>
             {/* botão */}
             <div className="container-login-form-button">
-              <button className="login-form-button">
-                <a href="home">Entrar</a>
-              </button>
+              <Link to="/home">
+                <button className="login-form-button">Entrar</button>
+              </Link>
             </div>
             {/* campo para redirecionamento criar conta */}
             <div className="text-center">

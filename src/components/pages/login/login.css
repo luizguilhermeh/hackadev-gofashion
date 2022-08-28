@@ -175,7 +175,7 @@ input:focus + .focus-input::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 200px;
   height: 50px;
 
   background: -webkit-linear-gradient(to left, #f1f366, #f5f836);
