@@ -1,7 +1,7 @@
 import React from 'react';
-import Input from './form/Input';
-import Select from './form/Select';
-import SubmitButton from './form/SubmitButton';
+import Input from '../form/Input';
+import Select from '../form/Select';
+import SubmitButton from '../form/SubmitButton';
 import styles from "./Formulario.module.css"
 
 function Formulario({btnText}){
