@@ -7,15 +7,20 @@ function Checkout() {
     // container principal
     <div className="container">
       <div className="container-checkout">
-        {/* container onde aparece o review dos produtos */}
-        {/* <div className="review-product">
-          <h1>Produtos</h1>
-        </div> */}
-        {/* container da tela de checkout (envio e pagamento) */}
+        <div className="checkout-products">
+          <div className="checkout-products-title">
+            <h1>Sacola de Produtos</h1>
+          </div>
+          <div className="checkout-products-details">
+            <p>
+              Produto XXX{" "}
+            </p>
+          </div>
+          
+        </div>
 
-        {/* container tela de envio */}
         <div className="checkout-post">
-          <div className="checkcout-post-title">
+          <div className="checkout-post-title">
             <h1>Envio</h1>
           </div>
           <div className="checkout-post-send">
@@ -66,14 +71,12 @@ function Checkout() {
               />
             </div>
           </div>
-          
         </div>
-        
       </div>
       {/* botão finalizar compra */}
       <div className="container-button">
-          <button className="button">Finalizar Compra</button>
-        </div>
+        <button className="button">Finalizar Compra</button>
+      </div>
     </div>
   );
 }
