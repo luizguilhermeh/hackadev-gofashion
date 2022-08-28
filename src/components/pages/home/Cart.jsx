@@ -46,7 +46,11 @@ const Cart = () => {
           {cartItems.length >= 1 &&
             cartItems.map((item) => (
               <div className="product" key={item.id}>
-                <img src={item.imagem} alt="cart" className="cart-product-image" />
+                <img
+                  src={item.imagem}
+                  alt="cart"
+                  className="cart-product-image"
+                />
                 <div className="item-desc">
                   <div className="flex top">
                     <h5>{item.name}</h5>
@@ -96,9 +100,11 @@ const Cart = () => {
               <h3>R${totalPrice.toFixed(2)}</h3>
             </div>
             <div className="btn-container">
+              <a href="/checkout">
               <button type="button" className="btn" onClick="{handleCheckout}">
                 Finalizar Pedido
               </button>
+              </a>
             </div>
           </div>
         )}
