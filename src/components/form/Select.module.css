@@ -15,4 +15,6 @@
     border-radius: 8px;
     border: none;
     outline: none;
+    font-size: medium;
+    letter-spacing: 0.1rem;
 }
