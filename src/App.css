@@ -2,3 +2,7 @@
 * {
     font-family: 'Roboto';
 }
+body {
+    background: rgb(181,107,28);
+    background: linear-gradient(90deg, rgb(180, 136, 89) 0%, rgba(245,204,13,1) 100%);
+}
