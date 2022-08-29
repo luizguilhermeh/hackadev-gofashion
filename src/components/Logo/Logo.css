@@ -1,4 +1,10 @@
 .logo {
     max-width: 60%;
     padding: 20px;
+    margin: 5px;
+}
+@media (max-width: 700px) {
+    .logo {
+        max-width: 100%;
+    }
 }
