@@ -19,6 +19,7 @@
     border-bottom: 2px solid #adadad;
     margin-bottom: 2rem;
     font-size: medium;
+    width: auto;
 }
 .form_control input ::placeholder {
     color: #7b7b7b;
@@ -27,3 +28,9 @@
     border-bottom: 2px solid #f5f836;
     transition: 0.4s;
 }
+@media (max-width: 650px) {
+    .form_control input {
+      width: auto;
+      padding: .7em;
+    }
+  }
