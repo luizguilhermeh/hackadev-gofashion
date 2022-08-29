@@ -21,8 +21,8 @@
 }
 @media (max-width: 650px) {
   .registration_container {
-    width: 300px;
+    width: 350px;
     margin: 20px auto;
-    padding: 4rem;
+    padding-bottom: 1rem;
   }
 }
