@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="icons-nav">
           <a href="/login">
             <button type="button" className="cart-icon">
-              <img src={user} id="ShoppingBagIcon" alt="imagem" />
+              <img src={user} className="userIcon" alt="imagem" />
             </button>
           </a>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
             className="cart-icon"
             onClick={() => setShowCart(true)}
           >
-            <img src={shopping} id="ShoppingBagIcon" alt="imagem" />
+            <img src={shopping} className="ShoppingBagIcon" alt="imagem" />
             <span className="cart-item-qty">{totalQuantities}</span>
           </button>
         </div>

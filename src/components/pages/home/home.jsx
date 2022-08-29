@@ -12,6 +12,8 @@ function home() {
             totalVendindos={produto.totalVendindos}
             fimPromocao={produto.fimPromocao}
             rating={produto.rating}
+            promo={produto.promo}
+            valorDesconto={produto.valorDesconto}
             todosProdutos={produto}
             id={produto.id}
             key={i}
