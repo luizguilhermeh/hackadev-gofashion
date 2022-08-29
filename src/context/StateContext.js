@@ -32,7 +32,7 @@ export const StateContext = ({ children }) => {
 
       setCartItems([...cartItems, { ...product }]);
     }
-    alert(`0${qty} ${product.name} Adicionado a Sacola`)
+    alert(`0${qty} ${product.name} Adicionado à Sacola`)
   }
 
   const onRemove = (product) => {
