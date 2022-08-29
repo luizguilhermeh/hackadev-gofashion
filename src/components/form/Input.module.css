@@ -6,14 +6,24 @@
 .form_control label {
     margin-bottom: .6em;
     font-weight: bold;
+    font-size: medium;
+    color: white;
+    letter-spacing: 0.05rem;
 }
 .form_control input {
     padding: .7em;
-    border-radius: 5px;
-    border: 1px solid black ;
+    border: none ;
     background-color: transparent;
     outline: none;
+    color: white;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 2rem;
+    font-size: medium;
 }
 .form_control input ::placeholder {
     color: #7b7b7b;
+}
+.form_control input::before {
+    border-bottom: 2px solid #f5f836;
+    transition: 0.4s;
 }
