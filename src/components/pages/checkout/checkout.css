@@ -41,7 +41,7 @@
   text-justify: auto;
   display: block;
   justify-content: flex-start;
-  font-size: 15px;
+  font-size: small;
   color: rgb(78, 78, 76);
 
 }
@@ -50,6 +50,7 @@
   width: 390px;
   background-color: #eef08a;
   border-radius: 10px;
+  font-size: small;
 
   overflow: hidden;
   padding: 77px 55px 33px 55px;
@@ -63,7 +64,7 @@
   text-justify: auto;
   display: block;
   justify-content: flex-start;
-  font-size: 15px;
+  font-size: small;
   color: rgb(78, 78, 76);
 
   
@@ -93,6 +94,7 @@
   justify-content: center;
   text-align: center;
   display: flex;
+  font-size: small;
   align-items: flex-start;
   margin-bottom: 20px;
   color: rgb(78, 78, 76);
