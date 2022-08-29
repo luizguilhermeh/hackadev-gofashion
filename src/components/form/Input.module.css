@@ -32,5 +32,9 @@
     .form_control input {
       width: auto;
       padding: .7em;
+      letter-spacing: 0.08rem;
+    }
+    .form_control label {
+        letter-spacing: 0.1rem;
     }
   }
