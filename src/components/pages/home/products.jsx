@@ -1,25 +1,23 @@
-import React from 'react'
-import {
-  FaShoppingCart,
-  FaRegBookmark,
-  FaStar
-} from "react-icons/fa"
+import React from "react";
+import { FaShoppingCart, FaRegBookmark, FaStar } from "react-icons/fa";
 
 import { useStateContext } from "../../../context/StateContext";
 
 export function Products(prod) {
-  const { qty, onAdd} = useStateContext();
+  const { qty, onAdd } = useStateContext();
 
   return (
-    
     <div className="productList">
       <div key={prod.id} className="productCard">
         <img src={prod.imagem} alt="product-img" className="productImage"></img>
-
-        onClick={() => onAdd(prod.todosProdutos, qty)}
-          <FaShoppingCart className="productCard__cart" title="Adicionar Carrinho" />          
-        
-        <FaRegBookmark className="productCard__wishlist" title="Favoritar"/>
+        <a>
+          onClick={() => onAdd(prod.todosProdutos, qty)}
+          <FaShoppingCart
+            className="productCard__cart"
+            title="Adicionar Carrinho"
+          />
+        </a>
+        <FaRegBookmark className="productCard__wishlist" title="Favoritar" />
 
         <div className="productCard__content">
           <h3 className="productName">{prod.name}</h3>
