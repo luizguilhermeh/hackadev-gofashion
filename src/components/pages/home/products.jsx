@@ -16,9 +16,9 @@ export function Products(prod) {
       <div key={prod.id} className="productCard">
         <img src={prod.imagem} alt="product-img" className="productImage"></img>
 
-        <a onClick={() => onAdd(prod.todosProdutos, qty)}>
+        onClick={() => onAdd(prod.todosProdutos, qty)}
           <FaShoppingCart className="productCard__cart" title="Adicionar Carrinho" />          
-        </a>
+        
         <FaRegBookmark className="productCard__wishlist" title="Favoritar"/>
 
         <div className="productCard__content">
