@@ -19,3 +19,10 @@
   color: red;
   text-align: center;
 }
+@media (max-width: 650px) {
+  .registration_container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 4rem;
+  }
+}
