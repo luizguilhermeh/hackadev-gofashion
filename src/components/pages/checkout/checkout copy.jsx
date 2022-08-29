@@ -1,9 +1,5 @@
 import React from "react";
 
-import ProductImg from './ProductImg/ProductsImg';
-import ProductInformation from './ProductInformation/ProductInformation';
-import ProductPrice from "../product/ProductPrice/ProductPrice";
-
 import SubmitButton from "../../form/SubmitButton";
 
 import "./checkout.css";
@@ -18,9 +14,7 @@ function Checkout() {
             <h1>Sacola de Produtos</h1>
           </div>
           <div className="checkout-products-details">
-          <ProductImg />
-          <ProductInformation />
-          <ProductPrice />
+            <p>Produto XXX </p>
           </div>
         </div>
 
@@ -34,9 +28,10 @@ function Checkout() {
             </p>
           </div>
           <div className="checkout-post-subtotal">
-            <p>Frete: (Grátis)</p>
-            <p className="total">Total do pedido: R$ 129,90</p>
-            <p>Em 3x de R$ 43,3 sem juros</p>
+            <p>Itens: (valor aqui)</p>
+            <p>Frete: (valor aqui)</p>
+            <p className="total">Total do pedido: (valor aqui)</p>
+            <p>Em 3x de (valor aqui) sem juros</p>
           </div>
         </div>
         {/* container tela de pagamento */}
