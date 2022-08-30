@@ -73,8 +73,12 @@
   border-bottom: 2px solid rgba(252, 251, 251, 0.486);
   margin-bottom: 5px;
   margin-top: 5px;
+  font-size: 15px;
 }
 
+.checkout-post-subtotal{
+  font-size: 15px;
+}
 
 
 .checkout-payment{
@@ -96,6 +100,7 @@
   align-items: flex-start;
   margin-bottom: 20px;
   color: rgb(78, 78, 76);
+  font-size: 15px;
 }
 
 .payment-button-option{
@@ -172,4 +177,6 @@
 .container-button{
   display: flex;
 justify-content: center;
+background-color: rgb(239, 243, 187);
+
 }
