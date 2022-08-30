@@ -1,4 +1,4 @@
-.footer{
+.footer {
     position: relative;
     bottom: 0;
     left: 0;
@@ -7,15 +7,28 @@
     background-color: white;
     margin-top: 20px;
     padding-top: 10px;
-    
+
 }
+
 #footer-title {
-text-align: center;
-font-size: 18px;
+    text-align: center;
+    font-size: 18px;
 }
 
 #footer-subtitle {
-text-align: center;
-font-size: 15px;
-padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:800px) {
+    #footer-subtitle {
+        font-size: 12px;
+    }
+
+    #footer-title {
+        text-align: center;
+        font-size: 14px;
+    }
+
 }

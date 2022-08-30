@@ -30,6 +30,13 @@
     .barraFrete {
       font-size: 2rem;
       text-align: center;
+      margin-top: 17px;
+      margin-bottom: 17px;
+    }
+
+    .cor {
+      color: #ff3333;
+      font-size: 1.8rem;
     }
 
       
