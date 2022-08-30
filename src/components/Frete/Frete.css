@@ -30,8 +30,8 @@
     .barraFrete {
       font-size: 2rem;
       text-align: center;
-      margin-top: 17px;
       margin-bottom: 17px;
+      height: 65px;
     }
 
     .cor {

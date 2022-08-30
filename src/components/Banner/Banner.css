@@ -97,7 +97,7 @@
 @media screen and (max-width:800px) {
     .hero-banner-container {
         height: 399.7px;
-        width: 398px;
+        width: 382px;
         margin-bottom: 10px;
         padding-top: 20px;
         padding-left: 20px;
@@ -150,7 +150,6 @@
         color: #212121;
         font-weight: 400;
         margin-bottom: 90px;
-
     }
     .hero-banner-container button {
         background: #fff;
