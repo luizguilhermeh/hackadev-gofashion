@@ -36,7 +36,7 @@ function Checkout() {
           <div className="checkout-post-subtotal">
             <p>Frete: (Grátis)</p>
             <p className="total">Total do pedido: R$ 129,90</p>
-            <p>Em 3x de R$ 43,3 sem juros</p>
+            <p>Em 3x de R$ 43,30 sem juros</p>
           </div>
         </div>
         {/* container tela de pagamento */}
@@ -75,7 +75,7 @@ function Checkout() {
             </div>
           </div>
         </div>
-      </div>
+        </div>
       {/* botão finalizar compra */}
       <div className="container-button">
         <SubmitButton text="Finalizar Compra" />
