@@ -96,14 +96,19 @@
 
 @media screen and (max-width:800px) {
     .hero-banner-container {
-        height: 500px;
+        height: 498px;
+        width: 480px;
         margin-bottom: 10px;
         padding-top: 20px;
         padding-left: 20px;
     }
 
     .hero-banner-image {
-        right: -13%;
+        right: 10.5px;
+        padding-bottom: 2.2px;
+    }
+    .hero-banner-container:hover{       
+        background: #f02d34;
     }
 
     .vest {
@@ -143,6 +148,10 @@
         font-weight: 400;
         margin-bottom: 50px;
 
+    }
+    .hero-banner-container button {
+        background: #fff;
+        color: #f02d34;
     }
 
 }

@@ -52,7 +52,7 @@ const Cart = () => {
                   className="cart-product-image"
                 />
                 <div className="item-desc">
-                  <div className="flex top">
+                  <div className="flex">
                     <h5>{item.name}</h5>
                     <h4>R${item.price.toFixed(2)}</h4>
                   </div>
@@ -101,8 +101,8 @@ const Cart = () => {
             </div>
             <div className="btn-container">
               <a href="/checkout">
-              <button type="button" className="btn" onClick="{handleCheckout}">
-                Finalizar Pedido
+              <button type="button" className="btn" >
+                <span className="font-fin">Finalizar Pedido</span>
               </button>
               </a>
             </div>

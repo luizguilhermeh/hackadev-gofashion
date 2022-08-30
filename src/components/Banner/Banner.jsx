@@ -13,7 +13,7 @@ const HeroBanner = () => {
           <img src={IMG_BANNER} alt="" className="hero-banner-image" />
           <div>
             <a href="/">
-              <button type="button">COMPRAR</button>
+              <button type="button" className="btn-banner">COMPRAR</button>
             </a>
             <div className="desc">
               <h5>Descrição</h5>
