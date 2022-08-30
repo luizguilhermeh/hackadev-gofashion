@@ -390,6 +390,12 @@ html {
   font-size: 14px;
  }
 
+ .empty-cart{
+  width: 200px;
+  margin-left: 75px;
+  margin-top: 210px;
+ }
+
 @media screen and (max-width: 800px) {
   .cart-container {
     width: 400px;
@@ -470,7 +476,7 @@ html {
   .btn-container {
     width: 250px;
     margin-left: -70px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .font-fin {
    font-size: 13px;
