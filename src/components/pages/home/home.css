@@ -470,6 +470,7 @@ html {
   .btn-container {
     width: 250px;
     margin-left: -70px;
+    margin-bottom: 30px;
   }
   .font-fin {
    font-size: 13px;
