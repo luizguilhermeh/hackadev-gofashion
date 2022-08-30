@@ -96,8 +96,8 @@
 
 @media screen and (max-width:800px) {
     .hero-banner-container {
-        height: 498px;
-        width: 480px;
+        height: 399.7px;
+        width: 398px;
         margin-bottom: 10px;
         padding-top: 20px;
         padding-left: 20px;
@@ -105,19 +105,22 @@
 
     .hero-banner-image {
         right: 10.5px;
-        padding-bottom: 2.2px;
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
     }
     .hero-banner-container:hover{       
         background: #f02d34;
     }
 
     .vest {
-        font-size: 5px;
+        font-size: 0px;
         margin-left: -6px;
     }
 
     .hero-banner-container h3 {
-        font-size: 5px;
+        font-size: 3px;
     }
 
     .hero-banner-container {
@@ -125,28 +128,28 @@
     }
 
     .hero-banner-container h1 {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     .hero-banner-container h3 {
-        font-size: 18px;
+        font-size: 14px;
         margin-left: -6px;
     }
 
     .hero-banner-container button {
-        margin-top: 314px;
+        margin-top: 220px;
         margin-right: 18px;
     }
 
     .desc {
         width: 150px;
-        margin-right: 140px;
+        margin-right: 110px;
     }
 
     .desc p {
         color: #212121;
         font-weight: 400;
-        margin-bottom: 50px;
+        margin-bottom: 90px;
 
     }
     .hero-banner-container button {
