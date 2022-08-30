@@ -436,7 +436,7 @@ html {
   }
 
   .cart-container {
-    width: 415px;
+    width: 360px;
     padding: 4px;
   }
 
@@ -469,7 +469,7 @@ html {
   }
   .btn-container {
     width: 250px;
-    margin-left: -25px;
+    margin-left: -70px;
   }
   .font-fin {
    font-size: 13px;
