@@ -13,7 +13,6 @@ body,
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
-
 }
 
 html {
@@ -21,9 +20,6 @@ html {
 }
 
 .App {
-  /*  display: grid;
-    grid-template-columns: 350px 350px 350px; 
-    justify-content: center;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -51,24 +47,25 @@ html {
 }
 
 .descount {
-    color: #ff3333;
-    position: absolute;
-    right:38px;
-    top: 7px;
+  color: #ff3333;
+  position: absolute;
+  right: 38px;
+  top: 7px;
+  font-weight: bold;
 }
 
-
-  .descount {
-    padding: 5px; 
-    background: rgb(0, 0, 0);
-    border-radius: 15px;
-    font-size: 14px;
+.descount {
+  padding: 5px;
+  background: rgb(0, 0, 0);
+  border-radius: 15px;
+  font-size: 14px;
 }
 
 .preco {
   color: #a19fa1;
   text-decoration: line-through;
-  margin-right: 1.5px;
+  margin-right: 1.7px;
+  font-weight: lighter;
 }
 
 .productCard:hover {
@@ -138,7 +135,6 @@ html {
   font-size: 1.1rem;
 }
 
-
 /* NAVBAR */
 .nav {
   width: 100%;
@@ -155,7 +151,6 @@ html {
   display: flex;
 }
 
-
 /* ICON SACOLA */
 .ShoppingBagIcon {
   width: 50px;
@@ -163,7 +158,7 @@ html {
   margin-right: 30px;
   color: #181818;
 }
-.userIcon{
+.userIcon {
   padding-top: 3.8px;
   width: 53px;
   height: auto;
@@ -176,7 +171,7 @@ html {
   color: gray;
   cursor: pointer;
   position: relative;
-  transition: transform .4s ease;
+  transition: transform 0.4s ease;
   border: none;
   background-color: transparent;
   margin-right: 5px;
@@ -202,7 +197,6 @@ html {
   text-align: center;
   font-weight: 600;
   border: 3px solid rgb(255, 255, 255);
-  
 }
 
 .cart-wrapper {
@@ -214,7 +208,6 @@ html {
   z-index: 100;
   /* will-change: transform; */
   transition: all 1s ease-in-out;
-
 }
 
 .cart-container {
@@ -224,7 +217,6 @@ html {
   float: right;
   padding: 10px 10px;
   position: relative;
-
 }
 
 .cart-heading {
@@ -294,7 +286,6 @@ html {
   justify-content: space-between;
   width: 350px;
   color: #212121;
-
 }
 
 .tamanho {
@@ -349,7 +340,6 @@ html {
 
 .total h3 {
   font-size: 22px;
-
 }
 
 .remove-item {
@@ -366,7 +356,6 @@ html {
   width: 100%;
   padding: 30px 65px;
 }
-
 
 .basketShopping {
   position: absolute;
@@ -400,8 +389,7 @@ html {
   transform: scale(1.1, 1.1);
 }
 
-
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .hero-banner-container {
     height: 560px;
   }
@@ -422,7 +410,7 @@ html {
     width: 77%;
     left: 30%;
     top: 6%;
-    height: 56%
+    height: 56%;
   }
 
   .banner-desc .left h3 {
@@ -497,7 +485,6 @@ html {
 
   .product {
     padding: 20px 5px;
-
   }
 
   .product .cart-product-image {
@@ -547,7 +534,6 @@ html {
 
   .success-wrapper,
   .cancel-wrapper {
-
     min-height: 69vh;
   }
 
@@ -569,5 +555,11 @@ html {
   .btn-container {
     width: 300px;
     margin: auto;
+  }
+}
+@media (max-width: 700px) {
+  .icons-nav {
+    display: flex;
+    flex-direction: column;
   }
 }

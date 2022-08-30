@@ -3,15 +3,26 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  width: 450px;
-  margin: 0 auto;
-  padding: 3em;
+  width: 600px;
+  margin: 20px auto;
+  padding: 4rem;
+  background-color: #333;
+  border-radius: 15px;
 }
 .registration_container h1 {
+
   margin-bottom: 0.5em;
   text-align: center;
+  color: white;
 }
 .registration_container p {
   color: red;
   text-align: center;
+}
+@media (max-width: 650px) {
+  .registration_container {
+    width: 350px;
+    margin: 20px auto;
+    padding-bottom: 1rem;
+  }
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import { FaShoppingCart, FaRegBookmark, FaStar } from "react-icons/fa";
 
-import { useStateContext } from "../../../context/StateContext";
+import { useStateContext } from "../../context/StateContext";
+import '../pages/home/home.css'
 
-export function Products(prod) {
+export function Novidades(prod) {
   const { qty, onAdd } = useStateContext();
 
   return (
@@ -34,7 +35,7 @@ export function Products(prod) {
           <div className="displayStack__1">
             <div className="productPrice">
               <a href="/#" className="preco">
-                {prod.valorDesconto === "" ? "" : `R$${prod.valorDesconto}0`}
+                {prod.valorDesconto === "" ? "" : ` ${prod.valorDesconto}0`}
               </a>
               R${ prod.price}0
             </div>

@@ -1,0 +1,27 @@
+.barraFrete {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #727272;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    background: #F6F5F3;
+  }
+  
+  .cor {
+    color: #ff3333;
+    font-size: 2.1rem;
+  }
+  
+  .barraFrete a {
+    text-decoration: underline;
+    color: #727272;
+    padding-left: 5px;
+  }
+  
+  .barraFrete a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #727272;
+  }

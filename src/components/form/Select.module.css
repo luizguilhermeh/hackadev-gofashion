@@ -6,9 +6,15 @@
 .form_control label {
     margin-bottom: .6em;
     font-weight: bold;
+    color: white;
+    font-size: medium;
+    letter-spacing: 0.05rem;
 }
 .form_control select {
     padding: .7em;
-    border-radius: 5px;
-    border: 1px solid #7b7b7b;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    letter-spacing: 0.1rem;
 }

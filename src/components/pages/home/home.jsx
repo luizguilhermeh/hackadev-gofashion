@@ -1,8 +1,13 @@
 import {Products} from "./products";
 import content from "../../../content";
+import Banner from '../../Banner/Banner'
+import Novidades from '../../Novidades/dataNovidades'
+import Frete from "../../Frete/Frete";
 
 function home() {
   return (
+    <>
+    <Frete/>
     <div className="App">
       {content.map((produto,i) => (       
           <Products
@@ -21,6 +26,9 @@ function home() {
         
       ))}
     </div>
+    <Banner/>
+    <Novidades/>
+    </>
   );
 }
 export default home;
