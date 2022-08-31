@@ -391,11 +391,7 @@ html {
   font-size: 14px;
  }
 
- .empty-cart{
-  width: 200px;
-  margin-left: 75px;
-  margin-top: 210px;
- }
+
 
 @media screen and (max-width: 800px) {
   .cart-container {
@@ -482,6 +478,11 @@ html {
   .font-fin {
    font-size: 13px;
   }
+  .empty-cart{
+    width: 200px;
+    margin-left: 75px;
+    margin-top: 210px;
+   }
 }
 @media (max-width: 700px) {
   .icons-nav {
