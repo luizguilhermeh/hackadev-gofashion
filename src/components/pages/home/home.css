@@ -375,7 +375,7 @@ html {
   border: none;
   font-size: 20px;
   margin-top: 15px;
-  margin-left: 30px;
+  margin-left: 10px;
   text-transform: uppercase;
   background-color: #f02d34;
   color: #fff;
@@ -473,7 +473,7 @@ html {
   }
   .btn-container {
     width: 270px;
-    margin-left: -52px;
+    margin-left: -30px;
     margin-bottom: 50px;
     
   }
