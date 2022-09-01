@@ -5,7 +5,7 @@ import { useStateContext } from "../../context/StateContext";
 import '../pages/home/home.css'
 
 export function Novidades(prod) {
-  const { qty, onAdd } = useStateContext();
+  const { qty, onAdd,screenProduct } = useStateContext();
 
   return (
     <div className="productList">
@@ -19,7 +19,7 @@ export function Novidades(prod) {
             </a>
           )}
         </div>
-        <a href={`/product/${prod.name}`}><img src={prod.imagem} alt="product-img" className="productImage"></img></a>
+        <a href={`/product/${prod.name}`} onClick={() => screenProduct(prod.todosProdutos)}><img src={prod.imagem} alt="product-img" className="productImage"></img></a>
 
         <a href="/#" onClick={() => onAdd(prod.todosProdutos, qty)}>
           <FaShoppingCart

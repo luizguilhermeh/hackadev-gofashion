@@ -4,7 +4,7 @@ import { FaShoppingCart, FaRegBookmark, FaStar } from "react-icons/fa";
 import { useStateContext } from "../../../context/StateContext";
 
 export function Products(prod) {
-  const { qty, onAdd } = useStateContext();
+  const { qty, onAdd, screenProduct } = useStateContext();
 
   return (
     <div className="productList">
@@ -18,7 +18,7 @@ export function Products(prod) {
             </a>
           )}
         </div>
-        <a href={`/product/${prod.name}`}><img src={prod.imagem} alt="product-img" className="productImage"></img></a>
+        <a href={`/product/${prod.name}`} onClick={() => screenProduct(prod.todosProdutos)}><img src={prod.imagem} alt="product-img" className="productImage"></img></a>
 
         <a href="/#" onClick={() => onAdd(prod.todosProdutos, qty)}>
           <FaShoppingCart

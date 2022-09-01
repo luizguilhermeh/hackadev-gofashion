@@ -367,20 +367,21 @@ html {
 
 .btn {
   width: 100%;
-  max-width: 320px;
-  padding: 14px 15px;
+  max-width: 400px;
+  padding-top: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-radius: 15px;
   border: none;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 55px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 30px;
   text-transform: uppercase;
   background-color: #f02d34;
   color: #fff;
   cursor: pointer;
-  transform: scale(1.07);
+    transform: scale(1, 1);
   transition: transform 0.5s ease;
-  font-size: 6rem;
 }
 
 .btn:hover {
@@ -471,9 +472,10 @@ html {
     margin-top: 10px;
   }
   .btn-container {
-    width: 250px;
-    margin-left: -70px;
+    width: 270px;
+    margin-left: -52px;
     margin-bottom: 50px;
+    
   }
   .font-fin {
    font-size: 13px;

@@ -12,9 +12,9 @@ const HeroBanner = () => {
           <h1>LISTRADA BEGE</h1>
           <img src={IMG_BANNER} alt="" className="hero-banner-image" />
           <div>
-            <a href="/">
+           {/*  <a href="/"> */}
               <button type="button" className="btn-banner">COMPRAR</button>
-            </a>
+           {/*  </a> */}
             <div className="desc">
               <h5>Descrição</h5>
               <p>

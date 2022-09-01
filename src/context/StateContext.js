@@ -8,9 +8,18 @@ export const StateContext = ({ children }) => {
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalQuantities, setTotalQuantities] = useState(0);
   const [qty, setQty] = useState(1);
-
+  const [screenProd] = useState([]);
   let foundProduct;
   let index;
+
+
+  const screenProduct = (product) => {
+    const checkProductScreen = screenProd.filter((item) => item.id === product.id);
+
+    if (checkProductScreen) {
+      localStorage.setItem('id', JSON.stringify(product.id))
+    }
+  }
 
   const onAdd = (product, quantity) => {
     const checkProductInCart = cartItems.find((item) => item.id === product.id);
@@ -20,12 +29,14 @@ export const StateContext = ({ children }) => {
 
     if (checkProductInCart) {
       setCartItems(
-        cartItems.map((cartProduct) => 
-        cartProduct.id === product.id
-          ?{ ...cartProduct,
-          quantity: cartProduct.quantity + quantity}
-          : cartProduct
-      ))
+        cartItems.map((cartProduct) =>
+          cartProduct.id === product.id
+            ? {
+              ...cartProduct,
+              quantity: cartProduct.quantity + quantity
+            }
+            : cartProduct
+        ))
 
     } else {
       product.quantity = quantity;
@@ -93,7 +104,8 @@ export const StateContext = ({ children }) => {
         onRemove,
         setCartItems,
         setTotalPrice,
-        setTotalQuantities
+        setTotalQuantities,
+        screenProduct
       }}
     >
       {children}

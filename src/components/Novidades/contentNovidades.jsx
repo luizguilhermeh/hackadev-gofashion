@@ -2,14 +2,11 @@ import IMG_01 from "../../img/IMG_01.png";
 import IMG_02 from "../../img/IMG_02.png";
 import IMG_03 from "../../img/IMG_03.png";
 import IMG_04 from "../../img/IMG_04.png";
-/* import IMG_01_1 from "./img/IMG_01-1.png";
-import IMG_02_2 from "./img/IMG_02-1.png";
-import IMG_03_3 from "./img/IMG_03-1.png";
-import IMG_04_4 from "./img/IMG_04-1.png"; */
+
 
 const productData = [  
   {
-    id: 1,
+    id: 13,
     name: "Blusa canelada com recorte",
     imagem: IMG_01,
     tamanho: "P",
@@ -22,7 +19,7 @@ const productData = [
     totalVendindos: 101,
   },
   {
-    id: 2,
+    id: 14,
     name: "Blusa feminina canelada",
     imagem: IMG_02,
     tamanho: "P",
@@ -35,7 +32,7 @@ const productData = [
     totalVendindos: 50,
   },
   {
-    id: 3,
+    id: 15,
     name: "Blusa cropped manga bufante",
     imagem: IMG_03,
     tamanho: "P",
@@ -48,7 +45,7 @@ const productData = [
     totalVendindos: 88,
   },
   {
-    id: 4,
+    id: 16,
     name: "Jardineira Jeans Feminina",
     imagem: IMG_04,
     tamanho: "M",
