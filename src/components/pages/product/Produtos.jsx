@@ -27,9 +27,9 @@ const Produtos = () => {
     <div className="navbar-container1">
       {idNovo.map((item) => (
         <div key={item.key} className="product-detail-container1">
-            <div className="image-container1">
-              <img src={item.imagem} className="product-detail-image1" alt="" />
-            </div>
+          <div className="image-container1">
+            <img src={item.imagem} className="product-detail-image1" alt="" />
+          </div>
           <div>
             <div className="product-detail-desc1">
               <h1>{item.name}</h1>
@@ -73,14 +73,12 @@ const Produtos = () => {
                 </button>
 
                 {cartItems.length > 0 && (
-                <a href="/checkout">
-                <button
-                  type="button"
-                  className="buy-now1"
-                  
-                >
-                  COMPRAR COM 1 CLIQUE
-                </button></a>)}
+                  <a href="/checkout">
+                    <button type="button" className="buy-now1">
+                      COMPRAR COM 1 CLIQUE
+                    </button>
+                  </a>
+                )}
               </div>
             </div>
           </div>

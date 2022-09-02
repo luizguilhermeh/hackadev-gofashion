@@ -23,6 +23,33 @@
 
   background-color: rgb(239, 243, 187);
 }
+
+.checkout-product-detail-image1{
+  max-width: 100px;
+  max-height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.checkout-price {
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkout-price1 {
+  font-size: 20px;
+  color: #f02d34;
+  font-weight: bold;
+}
+
+.item-name h1 {
+  font-size: 16px;
+}
 .checkout-products{
   width: 390px;
   background-color: #eef08a;
@@ -44,6 +71,11 @@
   font-size: 15px;
   color: rgb(78, 78, 76);
 
+}
+
+.checkout-quantity1 {
+  max-width: 140px;
+  margin-top: 10px;
 }
 
 .checkout-post{
