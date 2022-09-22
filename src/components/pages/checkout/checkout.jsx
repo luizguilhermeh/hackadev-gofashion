@@ -60,7 +60,7 @@ function Checkout() {
                   {item.promo === "" ? " " : `${item.promo} % off`}
                 </div>
                 <div className="checkout-price">
-                  <span className="checkout-price1">R$ {item.price}0</span>
+                  <span className="checkout-price1">R$ {((item.price)*qty).toFixed(1)}0</span>
                 </div>
                 <div className="checkout-quantity1">
                   <h3 className="checkout-quanti1">Quantidade:</h3>
