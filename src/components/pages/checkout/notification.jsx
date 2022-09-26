@@ -14,6 +14,7 @@ const Notification = () => {
         <h1>Pedido Finalizado Com Sucesso!</h1>
         <span>Em breve você será notificado no whatsapp de cadastro</span>
         </div>
+        
      );
 }
  

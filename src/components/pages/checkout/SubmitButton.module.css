@@ -1,4 +1,4 @@
-.btn1 {
+.btn {
     background: linear-gradient(to left, #f1f38a, #f5f836);
     color: grey;
     padding: 0.7em 1.2em;
@@ -12,6 +12,6 @@
     height: 50px;
     width: 100%;
 }
-.btn1:hover {
+.btn:hover {
     color: black;
 }

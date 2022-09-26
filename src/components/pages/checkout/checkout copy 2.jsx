@@ -8,7 +8,7 @@ import {
   
 } from "react-icons/ai";
 
-import SubmitButton from "./SubmitButton"
+import SubmitButton from "../../form/SubmitButton"
 
 import content from "../../../content";
 import { useStateContext } from "../../../context/StateContext";
@@ -133,7 +133,7 @@ function Checkout() {
       </div>
       {/* botão finalizar compra */}
       <div className="container-button">
-      <SubmitButton
+      <SubmitButton href="/notification"
 text="Finalizar Compra" />
       </div>
     </div>
