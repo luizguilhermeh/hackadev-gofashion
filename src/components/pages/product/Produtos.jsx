@@ -27,7 +27,6 @@ export const Produtos = () => {
 
   return (
     <div className="navbar-container1">
-      {/* <Cart selected={selected}/> */}
       {idNovo.map((item) => (
         <div key={item.key} className="product-detail-container1">
           <div className="image-container1">
@@ -53,23 +52,19 @@ export const Produtos = () => {
                     className="color-tshirt-container1"
                     style={{ background: `#${item.colorHex}` }}
                   ></div>
-                  {/* <div className="color-tshirt"></div> */}
+                  
                 </div>
               </div>
               <div className="container-size">
                 <div className="product-descricao-tamanho">
                   Selecionar Tamanho: {selected}
                 </div>
-                <form className="buttons-size">
-                  {/* <input type="radio" id="yes" name="choose" value="yes" checked={selected === "yes"} onChange={handleChange}/>
-                <label htmlFor="yes">Yes</label> */}
-
+                <form className="buttons-size">              
                   <input
                     type="radio"
                     id="PP"
                     name="size"
                     value="PP"
-                    /* onClick={() => handleChange("PP")} */
                     onChange={handleChange}
                     className = 'input-size'
                   />
@@ -80,7 +75,6 @@ export const Produtos = () => {
                     id="P"
                     name="size"
                     value="P"
-                    /* onClick={() => handleChange("P")} */
                     onChange={handleChange}
                     className = 'input-size'
                   />
@@ -91,7 +85,6 @@ export const Produtos = () => {
                     id="M"
                     name="size"
                     value="M"
-                    /* onClick={() => handleChange("M")} */
                     onChange={handleChange}
                       className = 'input-size'
                   />
@@ -102,30 +95,17 @@ export const Produtos = () => {
                     id="G"
                     name="size"
                     value="G"
-                    /* onClick={() => handleChange("G")} */
                     onChange={handleChange}
                     className = 'input-size'
                   />
                   <label className = 'label-size' for="G">G</label>
 
-                  {/* <input type="radio" id="PP" name="size" value="PP" checked={selected === "PP"} onChange={handleChange}/>
-                  <label for="PP">PP</label>
-
-                <input type="radio" id="P" name="size" value="P" checked={selected === "P"} onChange={handleChange}/>
-                  <label for="P">P</label>
-
-                <input type="radio" id="M" name="size" value="M" checked={selected === "M"} onChange={handleChange}/>
-                  <label for="M">M</label>
-
-                <input type="radio" id="G" name="size" value="G" checked={selected === "G"} onChange={handleChange}/>
-                  <label for="G">G</label>
-                  */}
                 </form>
               </div>
 
               <div className="vestuario">
-                <div><img src={Cabide} alt="" title=""/>Provador Virtual</div>
-                <div><img src={Metrica} alt="" title=""/>Tabela de Medidas</div>
+                <div><img className="cabide" src={Cabide} alt="" title=""/><span className="cabide-text">Provador Virtual</span></div>
+                <div><img className="metrica" src={Metrica} alt="" title=""/><span className="metrica-text">Tabela de Medidas</span></div>
               </div>
 
               <div className="productList1">
