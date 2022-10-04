@@ -66,6 +66,7 @@
 .footer1 .footer-content .footer-menu li {
     font-size: 1.3rem;
     color: #060606;
+    font-weight: 400;
 }
 
 .footer-menu-item {
@@ -111,12 +112,12 @@
     width: 55px;
     justify-content: center;
     margin: 0 10px;
-    color: rgba(0, 0, 0, 0.22);
+    color: rgba(0, 0, 0, 0.911);
     font-size: 3rem;
 }
 
 .socials :hover {
-    color: rgba(29, 29, 29, 0.18);
+    color: #ff3333;
     cursor: pointer;
 }
 
@@ -177,7 +178,36 @@
 
 }*/
 
-@media screen and (max-width:800px) {   
+@media screen and (max-width:800px) {  
+    
+    .footer1{
+        text-align: center;
+    }
+    .footer-atendimento{
+        height: 245px;
+    }
+
+    .footer-cliente{
+        height: 230px;
+    }
+
+    .footer-sobre{
+        height: 245px;
+    }
+
+    .footer-ajuda{
+        height: 200px;
+    }
+
+    .footer-redesociais{
+        height: 180px;
+    }
+
+    .footer-cartao{
+        display: flex;
+        justify-content: center;
+       
+    }
        
     .footer-content {
         flex-direction: column;

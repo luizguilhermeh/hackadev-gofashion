@@ -19,7 +19,7 @@ function Footer() {
         <div className="footer-content">
           {/* <img src={logo} className="logoFooter" alt="" /> */}
 
-          <ul className="footer-menu">
+          <ul className="footer-menu footer-atendimento">
             <li>
               <img src={atendimento} title='Atendimento' alt='' className='footer-img'/>
               <p className='footer-text'>Atendimento</p>
@@ -36,7 +36,7 @@ function Footer() {
             </li>
           </ul>
 
-          <ul className="footer-menu">
+          <ul className="footer-menu footer-cliente" >
             <p>CARTÃO GOFASHION</p>
             <li className="footer-menu-item">
               Saiba como adquirir
@@ -49,7 +49,7 @@ function Footer() {
             </li>
           </ul>
 
-          <ul className="footer-menu">
+          <ul className="footer-menu footer-sobre">
             <p>SOBRE A GOFASHION</p>
             <li className="footer-menu-item">
               Empresa
@@ -65,7 +65,7 @@ function Footer() {
             </li>
           </ul>
 
-          <ul className="footer-menu">
+          <ul className="footer-menu footer-ajuda">
             <p>AJUDA</p>
             <li className="footer-menu-item">
               Nossas Lojas
@@ -78,7 +78,7 @@ function Footer() {
             </li>
           </ul>
 
-          <div className='footer-menu'>
+          <div className='footer-menu footer-redesociais'>
             <span className="socials-siga">ACOMPANHE GOFASHION</span>
 
             <div className="socials">
@@ -91,13 +91,13 @@ function Footer() {
 
         <div  className='element element-2'> <i><FaFacebookF /></i></div>
 
-        <div className="footer-info">
+        <div className="footer-info footer-cartao">
           <ul className="footer-info-items">
             <p className="footer-pagamento">FORMAS DE PAGAMENTO</p>
           </ul>
         </div>
 
-        <div className="footer-info">
+        <div className="footer-info footer-cartao">
           <ul className="footer-info-items">
             <li className="footer-info-item"><img src={visa} title='Cartão Visa' alt='' /></li>
             <li className="footer-info-item"><img src={master} title='Cartão Master Card' alt='' /></li>
