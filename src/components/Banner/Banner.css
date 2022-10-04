@@ -43,10 +43,10 @@
 
 .hero-banner-image {
     position: absolute;
-    top: 0%;
-    right: 0;
-    max-width: 500px;
-    max-height: 500px;
+    top: 0.2px;
+    right: 20px;
+    max-width: 499px;
+    max-height: 499px;
     width: auto;
     height: auto;
 }
@@ -65,7 +65,7 @@
 
 .desc p {
     color: #5f5f5f;
-    font-weight: 100;
+    font-weight: 400;
     text-align: left;
 }
 
@@ -73,7 +73,6 @@
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 16px;
-    /* color: black; */
     align-self: flex-start;
 }
 
@@ -155,5 +154,4 @@
         background: #fff;
         color: #f02d34;
     }
-
 }

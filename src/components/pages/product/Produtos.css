@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar-container1{
+
+.navbar-container1 {
     width: 100%;
     height: auto;
     display: flex;
@@ -15,13 +16,20 @@
     margin-left: 60px;
     margin-top: 40px;
     margin-bottom: 40px;
-    color: #000000;
+    color: #261E1E;
     justify-content: space-between;
 }
 
 .product-detail-desc1 {
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.product-name {
+    font-size: 26px;
+    margin-left: -3px;
+    font-weight: 500;
+    color: #261E1E;
 }
 
 .product-detail-container1 .product-detail-image1 {
@@ -43,7 +51,7 @@
 }
 
 
-.quanti1{
+.quanti1 {
     margin-top: 10px;
 }
 
@@ -62,11 +70,61 @@
 }
 
 .reviews1 {
-    color: #f02d34;
     margin-top: 10px;
+    font-size: 13.5px;
+}
+
+.destaque {
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+.select-color {
+    margin-top: 20px;
+    margin-left: 1px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.color-tshirt-container{
+    width: 33px;
+    height: 33px;
+
     display: flex;
-    gap: 5px;
     align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+     margin-top: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 32.4px;
+    margin-top: 10px;
+    border-radius: 100%;
+    border: 2px solid rgb(198, 20, 20); */
+}
+
+.color-tshirt-container1{
+position: absolute;
+content: '';
+width: 25px;
+height:25px;
+/* background: linear-gradient(to left, #292929, #000000); */
+border-radius: 100%;
+}
+
+/* .color-tshirt{
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background: black;
+} */
+
+.select-color-name {
+    font-size: 1.3rem;
+    color: #585858;
 }
 
 .product-detail-desc1 h4 {
@@ -78,7 +136,7 @@
     font-size: 15px;
 }
 
-.nota1{
+.nota1 {
     padding-bottom: 3px;
 }
 
@@ -107,17 +165,18 @@
     align-items: center;
     text-align: right;
     font-size: 14px;
-    margin-top: 30px;
-  }
-  
+    margin-top: 20px;
+}
+
 .preco1 {
     color: gray;
     text-decoration: line-through;
     padding-right: 5px;
 }
 
-.price1{
+.price1 {
     text-align: left;
+    color: #464646;
 }
 
 .product-detail-desc1 .quantity1 {
@@ -132,25 +191,27 @@
     gap: 30px;
 }
 
-.buttons1 .add-to-cart1{
+.buttons1 .add-to-cart1 {
     width: 280px;
     padding: 10px 20px;
-    border: 1px solid #f02d34 ;
+    border: 1px solid #f02d34;
     margin-top: 40px;
     font-size: 18px;
     font-weight: 500;
     background-color: white;
     color: #f02d34;
     cursor: pointer;
-    
-     transform: scale(1, 1);
+
+    transform: scale(1, 1);
     transition: transform 0.5s ease;
-  }
-  .buttons1 .add-to-cart1:hover{
-    transform:scale(1.1,1.1)
-  }
-  .buttons1 .buy-now1{
-    width: 280px;  
+}
+
+.buttons1 .add-to-cart1:hover {
+    transform: scale(1.1, 1.1)
+}
+
+.buttons1 .buy-now1 {
+    width: 280px;
     padding: 10px 20px;
     background-color: #f02d34;
     color: white;
@@ -159,12 +220,13 @@
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
-     transform: scale(1, 1);
+    transform: scale(1, 1);
     transition: transform 0.5s ease;
-  }
-  .buttons1 .buy-now1:hover{
-    transform:scale(1.1,1.1)
-  }
+}
+
+.buttons1 .buy-now1:hover {
+    transform: scale(1.1, 1.1)
+}
 
 
 .quantity-desc1 {
@@ -178,19 +240,21 @@
     cursor: pointer;
 }
 
-.quantity-desc1 .minus1{
+.quantity-desc1 .minus1 {
     color: #f02d34;
-  }
-  .quantity-desc1 .num1{
+}
+
+.quantity-desc1 .num1 {
     border-right: 1px solid gray;
     border-left: 1px solid gray;
     font-size: 20px;
     margin: 4px;
-  }
-  .quantity-desc1 .plus1{
+}
+
+.quantity-desc1 .plus1 {
     color: rgb(49, 168, 49);
-  
-  }
+
+}
 
 
 .max-qty1 {
@@ -201,45 +265,46 @@
 
 @media screen and (max-width:800px) {
 
-    .navbar-container1{
+    .navbar-container1 {
         display: flex;
-       justify-content: center; 
+        justify-content: center;
     }
+
     .product-detail-container1 {
         display: block;
-        margin-left: 10px;    
+        margin-left: 10px;
         margin-right: 15px;
         margin-top: 12px;
     }
 
     .product-detail-desc1 {
-        
+
         margin-left: 10px;
     }
 
-    .productList1{
+    .productList1 {
         margin: 0;
-    }
-   
-    .quantity1{
-        margin: 0;
-        padding: 0;
-        font-size: 15px;        
     }
 
-    .price1{
+    .quantity1 {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .price1 {
         font-size: 12px;
         padding: 0;
         margin: 0;
     }
 
-    .product-detail-image1{
-      margin-left: 10px;
+    .product-detail-image1 {
+        margin-left: 10px;
     }
 
     .product-detail-container1 .product-detail-image1 {
         width: 350px;
-        height: 350px;       
+        height: 350px;
     }
 
     .buttons1 .add-to-cart1 {
@@ -254,9 +319,72 @@
     .buttons1 .buy-now1 {
         width: 150px;
         height: 40px;
-        font-size: 14px;        
+        font-size: 14px;
         padding: 2px 10px;
         margin-top: 40px;
     }
 
+}
+
+
+/* SELECIONAR TAMANHOS */
+.product-descricao-tamanho {
+    width: 170px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+    margin-left: 24px;
+    /* margin: 5px 1px 15px 1px; */
+}
+
+.container-size {
+    width: 142px;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 30px;
+
+}
+
+.buttons-size{
+    margin-left: 36px;
+}
+
+.buttons-size {
+    display: flex;
+}
+
+.label-size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #f02d34;
+    margin-left: 10px;
+    color: #f02d34;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 15px;
+}
+
+.input-size {
+    /*  -webkit-appearance: none; */
+    appearance: none;
+}
+
+.input-size:checked + .label-size {
+    border-color: #f02d34;
+    background: #f02d34;
+    color: #fff;
+}
+
+.label-size:hover {
+    color: #fff;
+    background: #f02d34;
 }

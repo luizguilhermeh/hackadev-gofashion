@@ -8,9 +8,15 @@ export const StateContext = ({ children }) => {
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalQuantities, setTotalQuantities] = useState(0);
   const [qty, setQty] = useState(1);
-  const [screenProd] = useState([]);
+  const [screenProd] = useState([]); 
+  const [selected, setSelected] = useState('');
   let foundProduct;
   let index;
+  
+  const handleChange = (event) => {
+    /* alert(event.target.value); */
+    setSelected(event.target.value);
+  };
 
 
   const screenProduct = (product) => {
@@ -105,7 +111,9 @@ export const StateContext = ({ children }) => {
         setCartItems,
         setTotalPrice,
         setTotalQuantities,
-        screenProduct
+        screenProduct,
+        handleChange,
+        selected,
       }}
     >
       {children}

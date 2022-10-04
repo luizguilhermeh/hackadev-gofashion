@@ -18,6 +18,7 @@ const Cart = () => {
     setShowCart,
     toggleCartItemQuanitity,
     onRemove,
+    selected
   } = useStateContext();
 
   return (
@@ -57,7 +58,7 @@ const Cart = () => {
                     <h4>R${item.price.toFixed(2)}</h4>
                   </div>
                   <div className="tamanho">
-                    <h4>Tamanho:{item.tamanho}</h4>
+                    <h4>Tamanho:{selected}</h4>
                   </div>
                   <div className="flex bottom">
                     <div>
