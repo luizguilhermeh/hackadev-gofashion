@@ -12,8 +12,7 @@ import SubmitButton from "./SubmitButton"
 
 import content from "../../../content";
 import { useStateContext} from "../../../context/StateContext";
-import { useEffect } from "react";
-import api from "../../../api";
+
 
 import "./checkout.css";
 
@@ -34,15 +33,7 @@ function Checkout() {
   if (id > 12) {
     idNovo = contentNovidades.filter((item) => item.id === parseInt(id));
   }
-  useEffect(() => {
-    
-    api.get(`checkout`).then(res=>{
-      idNovo.map((item) => (
-     item.title
-      ))
-    })
-  })
-
+ 
   return (
     // container principal
     <div className="container">
