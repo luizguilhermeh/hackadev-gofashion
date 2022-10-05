@@ -11,16 +11,22 @@ import {
 import SubmitButton from "./SubmitButton"
 
 import content from "../../../content";
-import { useStateContext } from "../../../context/StateContext";
+import { useStateContext} from "../../../context/StateContext";
+import { useEffect } from "react";
+import api from "../../../api";
 
 import "./checkout.css";
 
 
 function Checkout() {
+
+  
   const { decQty, incQty, qty, } = useStateContext();
+  
 
   const id = `${localStorage.getItem("id").replace(/"/g, " ")}`;
   let idNovo = [];
+
 
   if (id <= 12) {
     idNovo = content.filter((item) => item.id === parseInt(id));
@@ -28,6 +34,15 @@ function Checkout() {
   if (id > 12) {
     idNovo = contentNovidades.filter((item) => item.id === parseInt(id));
   }
+  useEffect(() => {
+    
+    api.get(`checkout`).then(res=>{
+      idNovo.map((item) => (
+     item.title
+      ))
+    })
+  })
+
   return (
     // container principal
     <div className="container">
@@ -78,7 +93,8 @@ function Checkout() {
             ))}
           </div>
         </div>
-
+        {idNovo.map((item) => (
+          
         <div className="checkout-post">
           <div className="checkout-post-title">
             <h1>Envio</h1>
@@ -90,10 +106,11 @@ function Checkout() {
           </div>
           <div className="checkout-post-subtotal">
             <p>Frete: (Grátis)</p>
-            <p className="total">Total do pedido: R$ 129,90</p>
-            <p>Em 3x de R$ 43,3 sem juros</p>
+            <p className="total">Total do pedido: R$ {((item.price)*qty).toFixed(1)}0 </p>
+            <p>Em 3x de {((item.price)/3).toFixed(1)}0</p>
           </div>
         </div>
+        ))}
         {/* container tela de pagamento */}
         <div className="checkout-payment">
           <div className="checkout-payment-title">
