@@ -51,4 +51,4 @@ Endpoint - Catálogo de Produtos
 A recomendação é para que o deploy seja feito no netilify (gratuito) ou serviço similar - https://www.netlify.com
 
 ## Layouts
-Os layouts abaixo servem de referência visual das funcionalidades, sintam-se livres para segui-las ou implementá-las com base em outras referências, desde que atenda às regras e aos requisitos obrigatórios.
+Os layouts abaixo servem de referência visual das funcionalidades, sintam-se livres para segui-las ou implementá-las com base em outras referências, desde que atenda às regras e aos requisitos obrigatórios.# GoFashion
